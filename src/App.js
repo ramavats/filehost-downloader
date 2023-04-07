@@ -1,12 +1,11 @@
 import './App.css';
+import FetchAccountInfo from './FetchAccountInfo';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>FileHost Downloader</h1>
-      </header>
-    </div>
+    <>
+    <FetchAccountInfo />
+    </>
   );
 }
 
